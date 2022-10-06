@@ -16,6 +16,6 @@ const MyEnum[] myEnums = {MyEnum.First, MyEnum.Second, MyEnum.Third, MyEnum.Last
 int first = MyEnum.First;
 int last = MyEnum.LastEnum;
 for (int i = first; i < last; i++) {
-  
+    int intMyEnum = myEnums[i];
 }
 ```
